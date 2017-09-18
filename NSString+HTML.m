@@ -125,6 +125,24 @@
                                       range:NSMakeRange(0, [escaped length])];
     }
     
+    // @"&ndash;"
+    range = [self rangeOfString:@"&ndash;"];
+    if (range.location != NSNotFound) {
+        [escaped replaceOccurrencesOfString:@"&ndash;"
+                                 withString:@"—"
+                                    options:NSLiteralSearch
+                                      range:NSMakeRange(0, [escaped length])];
+    }
+    
+    // @"&mdash;"
+    range = [self rangeOfString:@"&mdash;"];
+    if (range.location != NSNotFound) {
+        [escaped replaceOccurrencesOfString:@"&mdash;"
+                                 withString:@"—"
+                                    options:NSLiteralSearch
+                                      range:NSMakeRange(0, [escaped length])];
+    }
+    
     // Decimal & Hex
     NSRange start, finish, searchRange = NSMakeRange(0, [escaped length]);
     i = 0;
