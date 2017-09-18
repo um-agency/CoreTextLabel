@@ -183,6 +183,11 @@
 - (void) addLink:(NSURL*)url atRange:(NSRange)range;
 
 /**
+ Add an URL to given range in given string. On user tap `linkPressedBlock` will be called
+ */
+- (void) addLink:(NSURL*)url atRange:(NSRange)range inString:(NSMutableAttributedString *)string;
+
+/**
  Assign a block to be called when label get's tapped on text with assigned URL
  */
 - (void) setLinkPressedBlock:(void (^)(NSTextCheckingResult * textCheckingResult))linkPressedBlock;
