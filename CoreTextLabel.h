@@ -173,6 +173,11 @@
 - (NSMutableAttributedString *) attributedStringByHTML:(NSString *)html;
 
 /**
+ Attributed string with html decoding after appending attributes
+ */
+- (NSMutableAttributedString *) specialAttributedStringByHTML:(NSString *)html;
+
+/**
  Add an URL to given range. On user tap `linkPressedBlock` will be called
  */
 - (void) addLink:(NSURL*)url atRange:(NSRange)range;

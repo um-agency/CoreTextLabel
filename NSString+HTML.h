@@ -33,4 +33,6 @@
 - (NSString *)kv_decodeHTMLCharacterEntities;
 - (NSString *)kv_encodeHTMLCharacterEntities;
 
++ (void)kv_decodeHTMLCharacterEntitiesInMutableString:(NSMutableString *)mutableString;
+
 @end

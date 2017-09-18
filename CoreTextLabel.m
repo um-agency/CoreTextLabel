@@ -779,6 +779,13 @@ NSString * CoreTextLabelBlockKeyLinkPressed = @"CoreTextLabelBlockKeyLinkPressed
     return attributes;
 }
 
+- (NSMutableAttributedString *) specialAttributedStringByHTML:(NSString *)html
+{
+    NSMutableAttributedString *stringWithAttributes = [self attributedStringByHTML:html parentTag:nil];
+    [NSString kv_decodeHTMLCharacterEntitiesInMutableString:stringWithAttributes.mutableString];
+    return stringWithAttributes;
+}
+
 - (NSMutableAttributedString *) attributedStringByHTML:(NSString *)html
 {
     return [self attributedStringByHTML:[html kv_decodeHTMLCharacterEntities] parentTag:nil];
