@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		717E1CCD11744ED69CB066D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDAEB2849E041CBB95575D8 /* libPods.a */; };
+		09CB99571F6FDDBC00297847 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB99561F6FDDBC00297847 /* NSString+HTML.m */; };
+		70EFC675B011BD765490B0D0 /* libPods-CoreTextLabelSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710264F1DD7CA1D651A5BE33 /* libPods-CoreTextLabelSample.a */; };
 		BA57F9DB165AAD7300B4E6EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA57F9DA165AAD7300B4E6EF /* UIKit.framework */; };
 		BA57F9DD165AAD7300B4E6EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA57F9DC165AAD7300B4E6EF /* Foundation.framework */; };
 		BA57F9DF165AAD7300B4E6EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA57F9DE165AAD7300B4E6EF /* CoreGraphics.framework */; };
@@ -29,7 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FDAEB2849E041CBB95575D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CB99551F6FDDB500297847 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "../../../NSString+HTML.h"; sourceTree = "<group>"; };
+		09CB99561F6FDDBC00297847 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "../../../NSString+HTML.m"; sourceTree = "<group>"; };
+		710264F1DD7CA1D651A5BE33 /* libPods-CoreTextLabelSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreTextLabelSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA57F9D6165AAD7300B4E6EF /* CoreTextLabelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTextLabelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA57F9DA165AAD7300B4E6EF /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA57F9DC165AAD7300B4E6EF /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +57,8 @@
 		BA57FA0F165ABA1A00B4E6EF /* Sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Sample.html; sourceTree = "<group>"; };
 		BA57FA18165ABF1900B4E6EF /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon@2x.png"; path = "../AppIcon@2x.png"; sourceTree = "<group>"; };
 		BA57FA1B165ABF4A00B4E6EF /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = ../AppIcon.png; sourceTree = "<group>"; };
-		EDF4AD1457CC4FA3B7A88D36 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		EFEADCAFFC7B0DC863C7E3F5 /* Pods-CoreTextLabelSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTextLabelSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreTextLabelSample/Pods-CoreTextLabelSample.release.xcconfig"; sourceTree = "<group>"; };
+		F4859B31F326FE2F7BE5E1D1 /* Pods-CoreTextLabelSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreTextLabelSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreTextLabelSample/Pods-CoreTextLabelSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +71,7 @@
 				BA57F9DB165AAD7300B4E6EF /* UIKit.framework in Frameworks */,
 				BA57F9DD165AAD7300B4E6EF /* Foundation.framework in Frameworks */,
 				BA57F9DF165AAD7300B4E6EF /* CoreGraphics.framework in Frameworks */,
-				717E1CCD11744ED69CB066D1 /* libPods.a in Frameworks */,
+				70EFC675B011BD765490B0D0 /* libPods-CoreTextLabelSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +84,7 @@
 				BA57F9E0165AAD7300B4E6EF /* CoreTextLabelSample */,
 				BA57F9D9165AAD7300B4E6EF /* Frameworks */,
 				BA57F9D7165AAD7300B4E6EF /* Products */,
-				EDF4AD1457CC4FA3B7A88D36 /* Pods.xcconfig */,
+				F02B2E16A2D8C99B578FCCD5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +104,7 @@
 				BA57F9DA165AAD7300B4E6EF /* UIKit.framework */,
 				BA57F9DC165AAD7300B4E6EF /* Foundation.framework */,
 				BA57F9DE165AAD7300B4E6EF /* CoreGraphics.framework */,
-				9FDAEB2849E041CBB95575D8 /* libPods.a */,
+				710264F1DD7CA1D651A5BE33 /* libPods-CoreTextLabelSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +116,8 @@
 				BA57FA08165AAE4F00B4E6EF /* CoreTextLabel.m */,
 				BA57F9F2165AAD7300B4E6EF /* AFViewController.h */,
 				BA57F9F3165AAD7300B4E6EF /* AFViewController.m */,
+				09CB99551F6FDDB500297847 /* NSString+HTML.h */,
+				09CB99561F6FDDBC00297847 /* NSString+HTML.m */,
 				BA57F9E1165AAD7300B4E6EF /* Supporting Files */,
 			);
 			path = CoreTextLabelSample;
@@ -138,6 +144,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F02B2E16A2D8C99B578FCCD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4859B31F326FE2F7BE5E1D1 /* Pods-CoreTextLabelSample.debug.xcconfig */,
+				EFEADCAFFC7B0DC863C7E3F5 /* Pods-CoreTextLabelSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,10 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA57F9FD165AAD7300B4E6EF /* Build configuration list for PBXNativeTarget "CoreTextLabelSample" */;
 			buildPhases = (
+				22B0E34DA0B3D22CED7EB018 /* [CP] Check Pods Manifest.lock */,
 				BA57F9D2165AAD7300B4E6EF /* Sources */,
 				BA57F9D3165AAD7300B4E6EF /* Frameworks */,
 				BA57F9D4165AAD7300B4E6EF /* Resources */,
-				2C1D4C1E4FA64A279DB235F4 /* Copy Pods Resources */,
+				8C6ECF516F93C3103DCD8EAF /* [CP] Embed Pods Frameworks */,
+				E7EDDB6F9E1ECCD8C0C62264 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,19 +223,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C1D4C1E4FA64A279DB235F4 /* Copy Pods Resources */ = {
+		22B0E34DA0B3D22CED7EB018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreTextLabelSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C6ECF516F93C3103DCD8EAF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreTextLabelSample/Pods-CoreTextLabelSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EDDB6F9E1ECCD8C0C62264 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreTextLabelSample/Pods-CoreTextLabelSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -229,6 +280,7 @@
 			files = (
 				BA57F9E7165AAD7300B4E6EF /* main.m in Sources */,
 				BA57F9EB165AAD7300B4E6EF /* AFAppDelegate.m in Sources */,
+				09CB99571F6FDDBC00297847 /* NSString+HTML.m in Sources */,
 				BA57F9F4165AAD7300B4E6EF /* AFViewController.m in Sources */,
 				BA57FA09165AAE4F00B4E6EF /* CoreTextLabel.m in Sources */,
 			);
@@ -318,7 +370,7 @@
 		};
 		BA57F9FE165AAD7300B4E6EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF4AD1457CC4FA3B7A88D36 /* Pods.xcconfig */;
+			baseConfigurationReference = F4859B31F326FE2F7BE5E1D1 /* Pods-CoreTextLabelSample.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextLabelSample/CoreTextLabelSample-Prefix.pch";
@@ -331,7 +383,7 @@
 		};
 		BA57F9FF165AAD7300B4E6EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF4AD1457CC4FA3B7A88D36 /* Pods.xcconfig */;
+			baseConfigurationReference = EFEADCAFFC7B0DC863C7E3F5 /* Pods-CoreTextLabelSample.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextLabelSample/CoreTextLabelSample-Prefix.pch";
