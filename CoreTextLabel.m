@@ -27,7 +27,7 @@
 #import <CoreText/CoreText.h>
 #import <AFMacros/AFMacros.h>
 #import <RegexKitLite/RegexKitLite.h>
-#import <NSString-HTML/NSString+HTML.h>
+#import "NSString+HTML.h"
 
 #define CORE_TEXT_SUPPORTED() ([[[UIDevice currentDevice] systemVersion] floatValue] >= 3.2)
 

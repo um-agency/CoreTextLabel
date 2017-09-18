@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'QuartzCore', 'CoreText'
   s.dependency 'RegexKitLite', '~>4.0'
   s.dependency 'AFMacros'
-  s.dependency 'NSString-HTML'
 end
