@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'CoreTextLabel'
-  s.version        = '1.5.13'
+  s.version        = '1.5.14'
   s.summary        = "Label to draw NSAttributedString or HTML with custom font and color. textIsTruncated, numberOfLines and lineSpacing is supported."
   s.homepage       = "https://github.com/appfarms/CoreTextLabel"
   s.author         = { 'Daniel Kuhnke' => 'd.kuhnke@appfarms.com' }

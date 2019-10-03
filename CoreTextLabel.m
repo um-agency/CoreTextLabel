@@ -1041,9 +1041,9 @@ NSString * CoreTextLabelBlockKeyLinkPressed = @"CoreTextLabelBlockKeyLinkPressed
 
 CTFontRef CTFontCreateFromUIFont(UIFont * font)
 {
-    return CTFontCreateWithName((__bridge CFStringRef)font.fontName,
-                                font.pointSize,
-                                NULL);
+    return CTFontCreateWithFontDescriptor((__bridge CTFontDescriptorRef)font.fontDescriptor,
+                                          font.pointSize,
+                                          nil);
 }
 
 CTTextAlignment CTTextAlignmentFromNSTextAlignment(NSTextAlignment textAlignment)
