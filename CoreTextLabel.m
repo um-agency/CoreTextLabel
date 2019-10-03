@@ -1043,7 +1043,7 @@ CTFontRef CTFontCreateFromUIFont(UIFont * font)
 {
     return CTFontCreateWithFontDescriptor((__bridge CTFontDescriptorRef)font.fontDescriptor,
                                           font.pointSize,
-                                          nil);
+                                          NULL);
 }
 
 CTTextAlignment CTTextAlignmentFromNSTextAlignment(NSTextAlignment textAlignment)
